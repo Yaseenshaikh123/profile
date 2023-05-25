@@ -1,0 +1,121 @@
+/* CSS RESET */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* head section */
+.header{
+    width:1359px;
+}
+
+/* top section */
+.top{
+    background-color:#302d49;
+}
+.top h3{
+    color:white;
+    margin-left:18px;
+}
+.top button{
+    padding : 2px 30px;
+}
+
+/* Navigation Menu styling */
+.navbar{
+    display:flex;
+    background-color: #c4c8ddb5;
+}
+.navbar .logo img{
+    width:65px;
+    border-radius:65px;
+}
+.navbar ul{
+    display:flex;
+    margin-left:300px;
+}
+.navbar ul li{
+    display:inline-block;
+    list-style: none;
+    margin:auto 6px;
+}
+.navbar li a{
+    text-decoration:none;
+    color:black;
+    padding:4px 15px;
+}
+.navbar li a:hover{
+    background-color: white;
+    border-radius:5px;
+    color:grey;
+    text-decoration: underline;
+}
+.navbar .support{
+    height:66px;
+    width:250px;
+    margin-left:4px;
+}
+.navbar .support h4{
+    margin:20px 45px;
+    font-size:19px;
+    background-color: antiquewhite;
+    border:1px solid grey;
+    box-shadow: 10px;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+/* bio section */
+.bio .container{
+    display:flex;
+    width:1000px;
+    margin:0px 178px;
+    background-color: rgb(238 238 245);
+    height:500px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius:300px;
+}
+ .bio .sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .bio .item2,.sub{
+    width:500px;
+    margin:50px;
+    background-color: rgb(219 233 239 / 43%);
+    height:300px;
+    border-radius:50px;
+ }
+.bio .item2 img{
+    display:inline-block;
+    margin:18px 77px;
+    width:200px;
+    height:260px;
+}
+
+/* friennds section */
+.friends .container .item1{
+    border-radius: 25px;
+    background-color:#f5f9ff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friends .container .item1 img{
+    border-radius: 10px;
+}
+
+footer .container{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* utility classes */
+.center{
+    text-align: center;
+}
